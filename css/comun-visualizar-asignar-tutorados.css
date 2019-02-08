@@ -1,0 +1,42 @@
+@font-face {
+            font-family: Soberana-Condensed-regular;
+            src: url(../fuente/soberanasanscondensed_regular.otf);           
+}
+@font-face {
+            font-family: Soberana-Condensed-italic;
+            src: url(../fuente/soberanasanscondensed_italic.otf);           
+}
+@font-face {
+            font-family: Soberana-Condensed-bold;
+            src: url(../fuente/soberanasanscondensed_bold.otf);           
+}
+@font-face {
+            font-family: Soberana-Condensed-boldItalic;
+            src: url(../fuente/soberanasanscondensed_boldItalic.otf);           
+}
+/*  SOBERANA TEXT*/
+@font-face {
+            font-family: Soberana-Texto-Regular;
+            src: url(../fuente/SoberanaTexto-Regular.otf);           
+}
+
+
+.columnas{
+	font-family: Soberana-Condensed-bold;
+}
+.columnas th{
+      font-size: 1.5em;
+	text-align: center;
+}
+.renglones{
+	font-family: Soberana-Texto-Regular;
+}
+.renglones td{
+	text-align: center;
+}
+.asignar{
+	font-family: Soberana-Condensed-italic;
+	width: 60%;
+	color: #fff;
+ 	background-color: rgb(27,57,106);
+}

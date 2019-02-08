@@ -1,0 +1,72 @@
+@font-face {
+            font-family: Soberana-Condensed-regular;
+            src: url(../fuente/soberanasanscondensed_regular.otf);           
+}
+
+/* .contenedor-principal{
+	display: grid;
+	grid-template-areas: 
+		"a a a a a a"
+		"b b b b b b"
+		"c c c c c c";
+		
+}
+.cabecera{
+	grid-area: a;
+}
+.cuerpo{
+	position: relative;
+	grid-area: b;	
+	height:80vh;
+	text-align: center;
+	box-shadow: 0px 0px 0px 02px black inset;
+	
+}
+.cuerpo p {
+	font-size: 30px;
+	
+}
+.formulario{
+	position: absolute;
+	top:20px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+} 
+.botones {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+.cuerpo > div{
+	margin: 20px;
+}
+
+.pie{
+	grid-area: c;
+}
+
+.boton {
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+ */
+ .formulario label {
+	font-family: "Soberana-Condensed-regular";
+	font-size: 30px; 	
+}
+
+.formulario{	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+} 
+#inicio{	
+	grid-column: 5/10;
+	grid-row: 2/7;
+	text-align: center;
+}
+
+/* =================== */

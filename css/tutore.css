@@ -1,0 +1,71 @@
+
+
+@font-face {
+    font-family: Soberana-Texto-Regular;
+    src: url(../fuente/SoberanaTexto-Regular.otf);           
+}
+@font-face {
+    font-family: Soberana-Condensed-bold;
+    src: url(../fuente/soberanasanscondensed_bold.otf);           
+}
+.reportes{
+    width: 100%;
+    padding: 15px;  
+}
+.reportes p, label{
+    font-family:"Soberana-Texto-Regular";	
+}
+.reportes label{
+    font-size: 1.3em;
+}
+.reportes h3, .reportes h2{
+    font-family:"Soberana-Condensed-bold";
+    font-size: 2em;
+}
+.select{
+    width: 45%;
+}
+#gsesiones{
+    display: inline-block;
+    width: 70%;
+}
+#reporte{
+    position: relative;
+}
+.boton{
+    position: absolute;
+    left: 40%;
+}
+.lista{
+    padding: 10px;    
+}
+.listatut{
+    text-align: center;
+}
+.reportes hr{
+    padding: 0px;
+    margin:0px;
+    margin-left: 5%;
+}
+.alumnos{
+    margin-left: 10%;
+}
+.alumnos >label{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.alumnos > label >p{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+   
+}
+#nombre{
+    grid-column: 1/9;
+}
+#nc{
+    grid-column: 9/12;
+}
+.alumnos > label >input,#asistencia{
+    grid-column: 12/13;
+}

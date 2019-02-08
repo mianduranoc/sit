@@ -1,0 +1,21 @@
+/*.cuerpo{
+    display: grid;
+    grid-template-areas: 
+    "b b a a a a"
+    ;
+    grid-gap: 10px;
+}
+.contenido{
+    grid-area: a;    
+}
+.menuL{
+    grid-area: b;    
+}
+.cabecera{
+    box-shadow: 2px 2px 2px gray;
+}
+.oculto{
+    max-height: 0;
+    overflow: hidden;
+    padding: 0px;
+}*/
