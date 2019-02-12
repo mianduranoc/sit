@@ -10,7 +10,7 @@
         header("Location:../index.php");
     }
     ?>
-	Coordinador Institucional de Tutorias</p>
+	Coordinador Instonal de Tutorias</p><
             </div>
         </div> <!-- /CABECERA -->
     </header>		
